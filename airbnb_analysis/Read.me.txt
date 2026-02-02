@@ -1,0 +1,38 @@
+# Airbnb Market Analysis: Columbus vs New York
+
+## Author
+Jack Weisenburger
+
+## Project Overview
+This project analyzes Airbnb listing data to compare the Columbus, Ohio and New York City markets. The goal is to [briefly describe what decisions your analysis could support].
+
+## Research Questions
+
+1. Which Neighborhoods show the highest demand 
+2. Do Newer listings preform better or worse than new ones 
+3. Are certain neighborhoods becoming less available 
+4. Do hosts with a single listing outperform hosts with multiple 
+5. How do reviews change based on room type 
+
+## Data Source Mapping
+
+| # | Question | Data Needed | Source | Data Type |
+|:-:|:---------|:------------|:-------|:----------|
+| 1 | [Question 1] | [ neighborhood, number_of_reviews, reviews_per_month ] | [ listings.csv] | [Structured] |
+| 2 | [Question 2] | [number_of_reviews, reviews_per_month, availability_365, host_since] | [listings.csv] | [Structured] |
+| 3 | [Question 3] | [neighborhood,availability_365] | [listings.csv] | [Structured] |
+| 4 | [Question 4] | [Calculating_host_listings_count,number_of_reviews, reviews_per_month, availability_365] | [listings.csv] | [Structured] |
+| 5 | [Question 5] | [room_type,number_of_reviews,reviews_per_month] | [listings.csv] | [Structured] |
+
+## Data Overview
+- **Columbus, Ohio:** [X] listings (as of Sept 26, 2025)
+- **New York City:** [X] listings (as of Dec 4, 2025)
+- **Primary data source:** [Inside Airbnb](http://insideairbnb.com/get-the-data)
+
+## Project Status
+- [x] Initial data exploration
+- [x] Research questions defined
+- [x] Data sources mapped
+- [ ] Data downloaded and cleaned
+- [ ] Analysis complete
+- [ ] Visualizations created
